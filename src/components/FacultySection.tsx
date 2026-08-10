@@ -1,9 +1,9 @@
 import BlurReveal from "./BlurReveal";
 
 const faculty = [
-  { name: "Amar Narayan", subject: "Mathematics", exp: "Experienced Faculty", image: "/Faculty/Amar Narayan.jpeg" },
-  { name: "Varsha K M", subject: "Science & English", exp: "Experienced Faculty", image: "/Faculty/Varsha.png" },
-  { name: "Arjun Anand", subject: "Mathematics & Social Science", exp: "Experienced Faculty", image: "/Faculty/Arjun Anand.jpeg" },
+  { name: "Amar Narayan", subject: "Mathematics", exp: "Experienced Faculty", image: "/Faculty/Amar Narayan.webp" },
+  { name: "Varsha K M", subject: "Science & English", exp: "Experienced Faculty", image: "/Faculty/Varsha.webp" },
+  { name: "Arjun Anand", subject: "Mathematics & Social Science", exp: "Experienced Faculty", image: "/Faculty/Arjun Anand.webp" },
 ];
 
 const FacultySection = () => (

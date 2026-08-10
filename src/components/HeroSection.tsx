@@ -53,7 +53,7 @@ const HeroSection = () => (
           transition={{ duration: 0.8 }}
         >
           <motion.img
-            src="/tuition_logo.png"
+            src="/tuition_logo.webp"
             alt="Vignan Tutorials Logo"
             className="w-full h-full max-w-[500px] object-contain cursor-pointer"
             whileHover={{ scale: 1.08, rotate: 2, filter: "drop-shadow(0 25px 35px rgba(var(--primary), 0.4))" }}

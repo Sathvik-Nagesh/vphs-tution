@@ -1,23 +1,23 @@
 import BlurReveal from "./BlurReveal";
 
 const toppersRow1 = [
-  { src: "/Toppers/Lohith.png", name: "Lohith", percent: "90" },
-  { src: "/Toppers/Yashoda n.png", name: "Yashoda N", percent: "92" },
-  { src: "/Toppers/SSLC TOPPERS/Abhishek H.png", name: "Abhishek H", percent: "91" },
-  { src: "/Toppers/SSLC TOPPERS/Akash K N.png", name: "Akash K N", percent: "93" },
-  { src: "/Toppers/SSLC TOPPERS/Deepa R.png", name: "Deepa R", percent: "94" },
-  { src: "/Toppers/SSLC TOPPERS/Harika N.png", name: "Harika N", percent: "92" },
-  { src: "/Toppers/SSLC TOPPERS/M Bharath.png", name: "M Bharath", percent: "95" },
+  { src: "/Toppers/Lohith.webp", name: "Lohith", percent: "90" },
+  { src: "/Toppers/Yashoda n.webp", name: "Yashoda N", percent: "92" },
+  { src: "/Toppers/SSLC TOPPERS/Abhishek H.webp", name: "Abhishek H", percent: "91" },
+  { src: "/Toppers/SSLC TOPPERS/Akash K N.webp", name: "Akash K N", percent: "93" },
+  { src: "/Toppers/SSLC TOPPERS/Deepa R.webp", name: "Deepa R", percent: "94" },
+  { src: "/Toppers/SSLC TOPPERS/Harika N.webp", name: "Harika N", percent: "92" },
+  { src: "/Toppers/SSLC TOPPERS/M Bharath.webp", name: "M Bharath", percent: "95" },
 ];
 
 const toppersRow2 = [
-  { src: "/Toppers/SSLC TOPPERS/Madan H K.png", name: "Madan H K", percent: "93" },
-  { src: "/Toppers/SSLC TOPPERS/Manasa D.png", name: "Manasa D", percent: "91" },
-  { src: "/Toppers/SSLC TOPPERS/Maruthi K L.png", name: "Maruthi K L", percent: "89" },
-  { src: "/Toppers/SSLC TOPPERS/Rakesh S.png", name: "Rakesh S", percent: "90" },
-  { src: "/Toppers/SSLC TOPPERS/Sandeep H.png", name: "Sandeep H", percent: "88" },
-  { src: "/Toppers/SSLC TOPPERS/Thanushree N.png", name: "Thanushree N", percent: "94" },
-  { src: "/Toppers/SSLC TOPPERS/Vidya R.png", name: "Vidya R", percent: "92" },
+  { src: "/Toppers/SSLC TOPPERS/Madan H K.webp", name: "Madan H K", percent: "93" },
+  { src: "/Toppers/SSLC TOPPERS/Manasa D.webp", name: "Manasa D", percent: "91" },
+  { src: "/Toppers/SSLC TOPPERS/Maruthi K L.webp", name: "Maruthi K L", percent: "89" },
+  { src: "/Toppers/SSLC TOPPERS/Rakesh S.webp", name: "Rakesh S", percent: "90" },
+  { src: "/Toppers/SSLC TOPPERS/Sandeep H.webp", name: "Sandeep H", percent: "88" },
+  { src: "/Toppers/SSLC TOPPERS/Thanushree N.webp", name: "Thanushree N", percent: "94" },
+  { src: "/Toppers/SSLC TOPPERS/Vidya R.webp", name: "Vidya R", percent: "92" },
 ];
 
 // Double the arrays for seamless loop

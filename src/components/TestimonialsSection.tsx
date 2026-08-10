@@ -37,7 +37,11 @@ const TestimonialsSection = () => {
 
   // Auto-play
   useEffect(() => {
-    const timer = setInterval(next, 5000);
+    const timer = setInterval(() => {
+      if (!document.hidden) {
+        next();
+      }
+    }, 5000);
     return () => clearInterval(timer);
   }, [next]);
 

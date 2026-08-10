@@ -2,13 +2,13 @@ import { motion } from "framer-motion";
 import { Trophy, Crown } from "lucide-react";
 import BlurReveal from "./BlurReveal";
 const toppers = [
-  { name: "Deepashree R", percent: "98", image: "/Toppers/2026 toppers/Deepashree R.png", subject: "2026 Topper" },
-  { name: "Koushikeswara R E", percent: "96", image: "/Toppers/2026 toppers/KOWSHIK R E .png", subject: "2026 Topper" },
-  { name: "Ramya K", percent: "97", image: "/Toppers/Ramya k.png", subject: "Topper" },
-  { name: "Namratha Y", percent: "96", image: "/Toppers/Namratha Y.png", subject: "Topper" },
-  { name: "Jitendra R", percent: "95", image: "/Toppers/Jitendra r.png", subject: "Topper" },
-  { name: "Deepthi N", percent: "94", image: "/Toppers/Deepthi N.png", subject: "Topper" },
-  { name: "Rakesh S", percent: "95", image: "/Toppers/SSLC TOPPERS/Rakesh S.png", subject: "Topper" },
+  { name: "Deepashree R", percent: "98", image: "/Toppers/2026 toppers/Deepashree R.webp", subject: "2026 Topper" },
+  { name: "Koushikeswara R E", percent: "96", image: "/Toppers/2026 toppers/KOWSHIK R E .webp", subject: "2026 Topper" },
+  { name: "Ramya K", percent: "97", image: "/Toppers/Ramya k.webp", subject: "Topper" },
+  { name: "Namratha Y", percent: "96", image: "/Toppers/Namratha Y.webp", subject: "Topper" },
+  { name: "Jitendra R", percent: "95", image: "/Toppers/Jitendra r.webp", subject: "Topper" },
+  { name: "Deepthi N", percent: "94", image: "/Toppers/Deepthi N.webp", subject: "Topper" },
+  { name: "Rakesh S", percent: "95", image: "/Toppers/SSLC TOPPERS/Rakesh S.webp", subject: "Topper" },
 ];
 
 const ResultsSection = () => (

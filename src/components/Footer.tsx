@@ -14,7 +14,7 @@ const Footer = () => {
           <div className="space-y-6">
             <div className="flex items-center gap-3">
               <div className="w-12 h-12 bg-white rounded-xl shadow-lg flex items-center justify-center p-1 overflow-hidden">
-                <img src="/tuition_logo.png" alt="Vignan Logo" className="w-full h-full object-contain" />
+                <img src="/tuition_logo.webp" alt="Vignan Logo" className="w-full h-full object-contain" />
               </div>
               <span className="font-extrabold text-2xl tracking-tighter text-white">VIGNAN<br /><span className="text-[10px] text-primary tracking-[0.3em] uppercase block -mt-1">Tutorials</span></span>
             </div>
@@ -100,7 +100,7 @@ const Footer = () => {
             <div className="flex items-center gap-2">
               <span className="text-[10px] text-primary-foreground/30 uppercase tracking-[0.2em] font-bold">Designed and Managed BY</span>
               <a
-                href="https://brandex-lab.vercel.app/"
+                href="https://www.brandex.co.in/"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-sm font-black text-white hover:text-primary transition-colors tracking-tight"

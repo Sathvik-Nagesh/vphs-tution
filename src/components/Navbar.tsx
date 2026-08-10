@@ -65,7 +65,7 @@ const Navbar = () => {
               whileHover={{ rotate: [-5, 5, -5, 0], scale: 1.1 }}
               transition={{ duration: 0.4 }}
             >
-              <img src="/tuition_logo.png" alt="Vignan Tutorials Logo" className="w-full h-full object-contain drop-shadow-md" />
+              <img src="/tuition_logo.webp" alt="Vignan Tutorials Logo" className="w-full h-full object-contain drop-shadow-md" />
             </motion.div>
             <div className="flex flex-col">
               <span className="font-bold text-2xl sm:text-3xl text-foreground tracking-tighter leading-none">VIGNAN</span>

@@ -1,3 +1,4 @@
+import React from "react";
 import Navbar from "@/components/Navbar";
 import HeroSection from "@/components/HeroSection";
 import StatsSection from "@/components/StatsSection";
@@ -13,23 +14,38 @@ import ContactSection from "@/components/ContactSection";
 import Footer from "@/components/Footer";
 import WhatsAppButton from "@/components/WhatsAppButton";
 
+const MemoizedNavbar = React.memo(Navbar);
+const MemoizedHeroSection = React.memo(HeroSection);
+const MemoizedStatsSection = React.memo(StatsSection);
+const MemoizedWhyChooseUs = React.memo(WhyChooseUs);
+const MemoizedCoursesSection = React.memo(CoursesSection);
+const MemoizedResultsSection = React.memo(ResultsSection);
+const MemoizedAdmissionsBanner = React.memo(AdmissionsBanner);
+const MemoizedFacultySection = React.memo(FacultySection);
+const MemoizedTestimonialsSection = React.memo(TestimonialsSection);
+const MemoizedEnquiryForm = React.memo(EnquiryForm);
+const MemoizedBatchTimings = React.memo(BatchTimings);
+const MemoizedContactSection = React.memo(ContactSection);
+const MemoizedFooter = React.memo(Footer);
+const MemoizedWhatsAppButton = React.memo(WhatsAppButton);
+
 const Index = () => (
   <>
-    <Navbar />
-    <HeroSection />
-    <StatsSection />
-    <WhyChooseUs />
-    <CoursesSection />
-    <ResultsSection />
-    <AdmissionsBanner />
-    <FacultySection />
-    <TestimonialsSection />
-    <EnquiryForm />
-    <BatchTimings />
-    <ContactSection />
-    <Footer />
-    <WhatsAppButton />
+    <MemoizedNavbar />
+    <MemoizedHeroSection />
+    <MemoizedStatsSection />
+    <MemoizedWhyChooseUs />
+    <MemoizedCoursesSection />
+    <MemoizedResultsSection />
+    <MemoizedAdmissionsBanner />
+    <MemoizedFacultySection />
+    <MemoizedTestimonialsSection />
+    <MemoizedEnquiryForm />
+    <MemoizedBatchTimings />
+    <MemoizedContactSection />
+    <MemoizedFooter />
+    <MemoizedWhatsAppButton />
   </>
 );
 
-export default Index;
+export default React.memo(Index);
